@@ -1,0 +1,7 @@
+applications:
+- name: test-app-2
+  buildpack: nodejs_buildpack
+  memory: 128M
+  disk-quota: 128M
+  routes:
+    - route: test-app-2.cfapps.eu10.hana.ondemand.com
